@@ -528,7 +528,7 @@ final class Util
        // $fator = (new Carbon('1997-10-07'))->diffInDays($date);
         $fator = (new Carbon('2022-05-29'))->diffInDays($date);
         $limit = $fator % 9000;
-        if ($limit >= 1000) {
+    if ($limit >= 1000) {
             return $limit;
         }
 
